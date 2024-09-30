@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>SVM-NAV: CONSTRAINT-AWARE VISION-LANGUAGE NAVIGATION WITH SUPERPIXEL VALUE MAP</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">SVM-NAV: CONSTRAINT-AWARE VISION-LANGUAGE NAVIGATION WITH SUPERPIXEL VALUE MAP</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <!-- <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                  </span> -->
+                  <p>Anonymous Author</p>
+                  </div>
+
+                  <!-- <div class="is-size-5 publication-authors">
+                    <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  </div> -->
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="#" onclick="alert('Comming soon!')" class="external-link button is-normal is-rounded is-dark">
+                        <!-- <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark"> -->
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <!-- <a href="#" onclick="alert('Comming soon!')" class="external-link button is-normal is-rounded is-dark"> -->
+                        <a href="https://www.dropbox.com/scl/fi/blizyynuwvsphs9bz4qek/Supplementary.zip?rlkey=5vjtlduybwtnkf957x60qhdff&st=tuwlks5r&dl=0" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-archive"></i>
+                        </span>
+                        <span>Supplementary</span>
+                      </a>
+                    </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <!-- <a href="#" onclick="alert('Comming soon!')" class="external-link button is-normal is-rounded is-dark"> -->
+                    <a href="https://anonymous.4open.science/r/SVM-Nav-code-E289" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="#" onclick="alert('Comming soon!')" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We present SVM-Nav, a training-free approach for Vision-Language Navigation in Continuous Environments (VLN-CE).
+            SVM-Nav reframes VLN-CE as a sequential sub-instruction completion problem, continuously translating sub-instructions into navigation plans via a cross-modal value map.
+            Central to our approach are the Sub-Instruction Manager (SIM) and Superpixel Value Map (SVM).
+            SIM decomposes instructions into sub-instructions and tracks navigation progress through automatic sub-instruction switching.
+            In parallel, SVM generates a value map from vision-language model prompts based on landmarks identified by SIM, further refined through superpixel clustering to improve navigation stability.
+            SVM-Nav achieves the state-of-the-art on two VLN-CE benchmarks, surpassing the second-best method by 12\% on R2R-CE and 13\% on RxR-CE in terms of Success Rate on the validation unseen split.
+            Furthermore, SVM-Nav demonstrates robustness in real-world robot deployments across diverse indoor scenes and instructions, highlighting its potential for practical applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="hero teaser" style="padding-top: 40px;">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Method Overview</h2>
+    <div class="hero-body">
+      <img src="static/images/teaser.png" alt="MY ALT TEXT"/>
+      <div class="content has-text-justified">
+        <p>
+          Overview of the proposed SVM-Nav. (a) The Sub-Instruction Manager decomposes the
+          instruction into a sequence of sub-instructions and plans object constraints, location constraints and
+          direction constraints for each of them. (b) During navigation, SVM-Nav builds a value map and uses
+          the superpixel clustering method to segment it into regions. It automatically switches constraints and
+          chooses the most promising region's geometric center as waypoints.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Framework of SVM-Nav </h2>
+    <div class="hero-body">
+      <img src="static/images/framework.png" alt="MY ALT TEXT"/>
+      <div class="content has-text-justified">
+        <p>
+          We present SVM-Nav, a training-free approach for VLN-CE. Within each episode, a
+          Sub-Instruction Manager decomposes instructions and conducts constraint-aware sub-instruction
+          switching. The active sub-instructions are translated into a Superpixel Value Map, which abstracts
+          the environment and generates navigation plans. These plans are then executed by classical control
+          algorithms, guiding the agent to complete each sub-instruction until the episode terminates.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered" style="font-size: 36px; font-weight: bold;">Visualization in Simulation</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <h2 class="subtitle" style="font-size: 24px; font-weight: bold;">
+            Navigation on episode 1313 with Superpixel-based waypoint selection.
+          </h2>
+          <h2 class="subtitle">
+            Instruction: Go straight. Pass the stairs on the right and continue straight. When you get to the stairs going up pass those as well. 
+            Go into the room with the couches and then turn right. wait near the glass table with white chairs.
+          </h2>
+          <video poster="" id="tree" autoplay controls muted loop height="100%">
+            <!-- Your video here -->
+            <source src="static/videos/eps1313_superpixel.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle">
+            SVM avoids focusing solely on local high values. 
+            Instead, it considers the global value map, allowing it to navigate correctly when switching sub-instructions.
+          </h2>
+        </div>
+        
+        <div class="item item-video2">
+          <h2 class="subtitle" style="font-size: 24px; font-weight: bold;">
+            Navigation on episode 1313 with frontier-based waypoint selection.
+          </h2>
+          <h2 class="subtitle">
+            Instruction: Go straight. Pass the stairs on the right and continue straight. When you get to the stairs going up pass those as well. 
+            Go into the room with the couches and then turn right. wait near the glass table with white chairs.
+          </h2>
+          <video poster="" id="tree" autoplay controls muted loop height="100%">
+            <!-- Your video here -->
+            <source src="static/videos/eps1313_fbe2.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle">
+            The FBE-based waypoint selection method navigates
+            correctly during the first sub-instruction. However, upon reaching the second sub-instruction, the
+            landmark prompt changes to “room,” causing the value map, initially based on the previous landmark
+            prompt “stairs”, to decay as new values are updated.
+            Then the agent chooses a left frontier, which has the highest value among the available options, 
+            but the correct path is to walk straight toward the open area with the stairs.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Real-world Experiments</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <iframe width="100%" height="500px" src="https://www.youtube.com/embed/yib2o-iCyR8" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+          <h2 class="subtitle has-text-centered">
+            Instruction: Go towards the plant, turn right, walk along the wall then stop near the World Cup Trophy.
+          </h2>
+        </div>
+        
+        <div class="item item-video2">
+          <iframe width="100%" height="500px" src="https://www.youtube.com/embed/vmNvs0y39OE" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+          <h2 class="subtitle has-text-centered">
+            Instruction: Walk towards the robot. 
+          </h2>
+        </div>
+        
+        <div class="item item-video3">
+          <iframe width="100%" height="500px" src="https://www.youtube.com/embed/X-I-RcRP9ZY" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+          <h2 class="subtitle has-text-centered">
+            Instruction: Walk out to the corridor, and stop in front of the poster.
+          </h2>
+        </div>
+        
+        <div class="item item-video4">
+          <iframe width="100%" height="500px" src="https://www.youtube.com/embed/8yPxrbq-hz4" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+          <h2 class="subtitle has-text-centered">
+            Instruction: Walk out of the door then stop in front of the plant.
+          </h2>
+        </div>
+        
+        <div class="item item-video5">
+          <iframe width="100%" height="500px" src="https://www.youtube.com/embed/4wQRoO3epDo" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+          <h2 class="subtitle has-text-centered">
+            Instruction: Turn left then walk towards the signboard and wait by the elevator.
+          </h2>
+        </div>
+        
+        <div class="item item-video6">
+          <iframe width="100%" height="500px" src="https://www.youtube.com/embed/yW4tqnk5Zqw" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+          <h2 class="subtitle has-text-centered">
+            Instruction: Go to the door.
+          </h2>
+        </div>
+        
+        <div class="item item-video7">
+          <iframe width="100%" height="500px" src="https://www.youtube.com/embed/0Y8bZxwzJ3s" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+          <h2 class="subtitle has-text-centered">
+            Instruction: Walk towards the living room then stop beside the couch.
+          </h2>
+        </div>
+        
+        <div class="item item-video8">
+          <iframe width="100%" height="500px" src="https://www.youtube.com/embed/72dDIFPAbhY" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+          <h2 class="subtitle has-text-centered">
+            Instruction: Turn slightly right and walk into the meeting room, step forward then stop in front of the table..
+          </h2>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
